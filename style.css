@@ -1,3 +1,32 @@
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400");
 /*  jumbotron */
+.img-fluid{
+  border-radius: 100%;
+}
+.lead {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.col-lg-8 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.col-lg-4 {
+  padding-top: 30px;
+}
+.jumbotron-fluid {
+    background-image: radial-gradient(at 73% 73%, hsla(45,32%,57%,1) 0, transparent 41%), radial-gradient(at 82% 18%, hsla(5,70%,73%,1) 0, transparent 50%), radial-gradient(at 3% 93%, hsla(42,88%,76%,1) 0, transparent 55%), radial-gradient(at 23% 16%, hsla(49,32%,45%,1) 0, transparent 57%);
+}
+.btn-primary {
+    background-color: #bc5f67;
+    border-color: #752938;
+  }
+.btn-primary:hover {
+  background-color: #bc5f67;
+  border-color: #752938;
+}
+.nav-item {
+    padding: 10px;
+}
